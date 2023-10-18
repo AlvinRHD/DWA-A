@@ -1,0 +1,39 @@
+.navbar {
+    background-color: #ccc;
+}
+
+.nav-item {
+    color: #fff;
+}
+
+.carousel-item {
+    max-height: 25rem;
+}
+
+.image3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 5%;
+    margin: 30px;
+
+}
+
+.container {
+    background-color: #ccc;
+    border-radius: 15px;
+}
+
+footer {
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+@media (max-width: 750px) {
+    .image3 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 20px;
+
+    }
+}
